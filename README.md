@@ -1,15 +1,12 @@
-# Supervised_learning
-Supervised learning to predict consumer decline
-
-# Проект: Обучение с учителем для предсказания снижения покупательской активности
+# Обучение с учителем для предсказания снижения покупательской активности
 
 
-### 1. **Цель проекта**
+### 1. **Для чего был проект:**
 Разработка модели машинного обучения с учителем, способной предсказывать **вероятность снижения покупательской активности клиента** в течение следующих трёх месяцев. Полученные предсказания будут использоваться для **сегментации клиентов** и последующей генерации **таргетированных предложений**.
 
 ---
 
-### 2. **Методология**
+### 2. **Что использовала**
 - **Тип задачи:** Бинарная классификация (целевая переменная — факт снижения активности).
 - **Источник данных:** Поведенческие метрики клиентов (история покупок, частота и сумма заказов), а также данные о прибыльности клиента за последние три месяца, предоставленные финансовым департаментом.
 - **Модель:** Рассматриваются базовые модели классификации: логистическая регрессия, метод K-ближайших соседей, дерево решений, метод опорных векторов.
@@ -26,12 +23,14 @@ Supervised learning to predict consumer decline
 
 ---
 ### 4. **Используемые технологии**
-- Python 
-- pandas, numpy
-- scikit-learn
-- matplotlib, seaborn
-- phik
-- shap
+![Static Badge](https://img.shields.io/badge/Python-you_like?style=flat&color=blue)
+![Static Badge](https://img.shields.io/badge/numpy-you_like?style=flat&color=green)
+![Static Badge](https://img.shields.io/badge/pandas-you_like?style=flat&color=pink)
+![Static Badge](https://img.shields.io/badge/scikit-learn-you_like?style=flat&color=red)
+![Static Badge](https://img.shields.io/badge/matplotlib-you_like?style=flat&color=red)
+![Static Badge](https://img.shields.io/badge/seaborn-you_like?style=flat&color=lightblue)
+![Static Badge](https://img.shields.io/badge/phik-you_like?style=flat&color=blue)
+![Static Badge](https://img.shields.io/badge/shap-you_like?style=flat&color=purple)
 
 ### 5. **Результаты** 
 - Лучшая модель логистическая регрессия (C=3, penalty=l1)
